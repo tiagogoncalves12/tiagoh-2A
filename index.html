@@ -1,94 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <head class="cabeçalho">
-        <span class="cabeçalho_menu-hamburguer"></span>
-        <img src="img/Logo.svg" alt="Logo do Alurabooks">
-        <a href="#"><img src="img/Favoritos.svg" alt="Meus Favoritos"></a>
-        <a href="#"><img src="img/Compras.svg" alt="Carrinho decompras"></a>
-        <a href="#"><img src="img/Usario.svg" alt="Meu perfil"></a>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="styles/style.css">
+        <link rel=”preconnect” href=”https://fonts.googleapis.com”>
+        <link rel=”preconnect” href=”https://fonts.gstatic.com” crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display= swap" rel=”stylesheet”>
+        <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+/>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js">
+
+</script>
+        <link rel="stylesheet" href="styles/reset.css">
+        <link rel="stylesheet" href="styles/header.css">
     </head>
-</body>
-     <head class="cabeçalho">
-        <div class="container">
-            <body>
-                <header class="cabeçalho">
-                    <div class="container">
-                        <input type="checkbox" id="menu" class="container_botao">
-                        <img src="img/logo.svg" alt="Logo da Alurabooks" class="container_imagem">
-                    
+    <body>
+        <section class=”carrossel”>
+            <h2 class=”carrossel__titulo”>Novos lançamentos</h2>
+            <div class=”swiper”>
+                <!-- Additional required wrapper -->
+                <div class=”swiper-wrapper”>
+                <!-- Slides -->
+                <div class=”swiper-slide”>Slide 1</div>
+                <div class=”swiper-slide”>Slide 2</div>
+                <div class=”swiper-slide”>Slide 3</div>
+                ...
+                </div>
+                <!-- If we need pagination -->
+                <div class=”swiper-pagination”></div>
+                <!-- If we need navigation buttons -->
+                <div class=”swiper-button-prev”></div>
+                <div class=”swiper-button-next”></div>
+                <!-- If we need scrollbar -->
+                <div class=”swiper-scrollbar”></div>
+            </section>
+        <header class="cabeçalho">
+            <div class="container">
+                <input type="checkbox" id="Menu" class="container_botao">
+                <label for="Menu">
+                    <span class="cabeçalho_menu container_imagem"></span>
+                </label>
+                <ul class="lista-menu">
+                    <li class="lista-menu_titulo">Categorias</li>
+                    <li class="lista-menu_item">
+                        <a href="#" class="lista-menu_link">Programação</a>
+                    </li>
+                    <li class="lista-menu_item">        <link rel=”preconnect” href=”https://fonts.gstatic.com” crossorigin>
+                        <link href=”https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;5000;700&display=swap” rel=”stylesheet”>
+                        <a href="#" class="lista-menu_link">Front-End</a>
+                    </li>
+                    <li class="lista-menu_item">
+                        <a href="#" class="lista-menu_link">Infraestrutura</a>0
+                    </li>
+                    <li class="lista-menu_item">
+                        <a href="#" class="lista-menu_link">Business</a>
+                    </li>
+                    <li class="lista-menu_item">
+                        <a href="#" class="lista-menu_link">Design & UX</a>
+                    </li>
+                </ul>
 
-                    </div>
-                </header>
-            </body>
-            <span class="cabeçalho_menu-hamburguer"></span>
-            <img src="img/Logo.svg" alt="Logo da Alurabooks">
-        </div>
-        <div class="container">
-            <a href="#"><img src="img/Favoritos.svg" alt="Meus Favoritos"></a>
-            <a href="#"><img src="img/Compras.svg" alt="Carrinho de Compras"></a>
-            <a href="#"><img src="img/Usuario.svg" alt="Meu perfil"></a>
-        </div>
-     </head>
-     <head class="cabeçalho">
-        <div class="container">
-            <span class="cabeçalho_menu-hamburguer container_imagem"></span>
-            <img src="img/Logo.svg" alt="Logo do Alurabooks" class="container_imagem">
-        </div>
-        <div class="container">
-            <a href="#"><img src="img/Favoritos.svg" alt="Meus favoritos" class="container_imagem"></a>
-            <a href="#"><img src="img/Compras.svg" alt="Carrinho de compras" class="container_imagem"></a>
-            <a href="#"><img src="img/Usuario.svg" alt="Meu perfil" class="container_imagem"></a>
-        </div>
-     </head>
-     
+                <img src="./img/Logo.svg" alt="Logo do Alurabooks" class="container_imagem">
+            </div>      
+
+            <div class="container">      
+                <a href="#"><img src="./img/Favoritos.svg" alt="Meus favoritos" class="container_imagem"></a>
+                <a href="#"><img src="./img/Compras.svg" alt="Compras" class="container_imagem"></a>
+                <a href="#"><img src="./img/Usuário.svg" alt="Perfil" class="container_imagem"></a>        
+            </div>
+        </header>
+    </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-     
+}
